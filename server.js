@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 const port = 3000;
-
+//Can adapt modifications
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
